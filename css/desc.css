@@ -1,0 +1,290 @@
+.desc_heading{
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 150px;
+  letter-spacing: 3px;
+}
+.desc_name{
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.desc_name::after{
+  display: block;
+  height: 0;
+  content: "";
+  border-top: 2px solid #0000ff;
+  margin: 10px auto 0;
+}
+.desc_ttl_url{
+  display: flex;
+  margin-bottom: 20px;
+}
+.desc_ttl_url p{
+  padding-right: 20px;
+}
+.desc_ttl_url a{
+  text-decoration: underline;
+  color: #0000ff
+}
+.desc_ttl_txt p{
+  display: block;
+  margin-bottom: 20px;
+}
+.desc_ttl_txt p:nth-child(3){
+  margin-bottom: 0;
+}
+
+.description_container{
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 100px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.description_wrapper{
+  width: 500px;
+}
+
+strong{
+  display: block;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+strong::after{
+  display: block;
+  height: 0;
+  content: "";
+  border-top: 2px solid #0000ff;
+  margin: 10px auto 0;
+}
+.desc_section{
+  margin-bottom: 100px;
+}
+.desc_section:last-child{
+  margin-bottom: 0;
+}
+.desc_section span{
+  display: block;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.desc_section p{
+  display: block;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.description_img{
+  width: 500px;
+}
+.description_img_fv{
+  width: 500px;
+}
+.desc_img_sp{
+  display: none;
+}
+.next_img{
+  margin-top: 50px;
+}
+
+.other_container{
+  max-width: 1100px;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  margin-top: 100px;
+}
+.desc_block{
+  max-width: 1100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rogo_img{
+  width: 500px;
+}
+.rogo_img img{
+  margin-bottom: 30px;
+}
+.rogo_text{
+  font-weight: 500;
+  text-align: center;
+}
+.rogo_img img:last-child{
+  margin-bottom: 0;
+}
+.desc_block:last-child{
+  margin-bottom: 0;
+}
+.desc_block_text{
+  width: 500px;
+}
+.desc_block span{
+  display: block;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.desc_block p{
+  display: block;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.other_text{
+  color: #ff0000;
+}
+.space_text{
+  margin: 0 auto 100px;
+}
+.pic_up{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.pic_up_text{
+  width: 335px;
+  margin: 0 auto;
+}
+@media screen and (max-width:959px){
+  .desc_heading{
+    width: 460px;
+    padding-top: 100px;
+    letter-spacing: 1px;
+  }
+  .desc_name{
+    font-size: 22px;
+  }
+  .desc_ttl_url p{
+    padding-right: 20px;
+  }
+  .description_container{
+    width: 674px;
+    padding-top: 80px;
+    letter-spacing: 1px;
+  }
+  .description_wrapper{
+    width: 320px;
+  }
+  
+  strong{
+    font-size: 18px;
+  }
+  .desc_section p{
+    font-size: 15px;
+  }
+  .description_img{
+    width: 320px;
+  }
+  .description_img_fv{
+    width: 320px;
+  }
+  .pastime_content{
+    width: 660px;
+  }
+
+  .other_container{
+    max-width: 674px;
+    margin-top: 80px;
+    letter-spacing: 1px;
+  }
+  .desc_block{
+    max-width: 674px;
+    margin-bottom: 60px;
+  }
+  .desc_block_text{
+    margin: 0 auto;
+  }
+  .desc_block_text p{
+    font-size: 15px;
+  }
+  .space_text{
+    font-size: 16px;
+    width: 500px;
+  }
+  .rogo_img{
+    width: 320px;
+  }
+  .rwd_block{
+    display: block;
+  }
+  .rwd_text{
+    width: 300px;
+  }
+  .rwd_rogo{
+  margin: 0 auto 20px;
+  }
+}
+@media screen and (max-width:559px){
+.desc_heading{
+  width: 300px;
+  padding-top: 150px;
+}
+.desc_name{
+  font-size: 14px;
+}
+.desc_ttl_url p{
+  padding-right: 13px;
+}
+.description_container{
+  width: 300px;
+  display: block;
+  padding-top: 40px;
+}
+.description_wrapper{
+  width: 300px;
+}
+strong{
+  font-size: 14px;
+}
+.desc_section{
+  margin-bottom: 40px;
+}
+.desc_section p{
+  font-size: 13px;
+}
+.description_img{
+  display: none;
+}
+.desc_img_sp{
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.description_img_fv{
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.pastime_content{
+  width: 350px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.other_container{
+  max-width: 300px;
+  margin-top: 40px;
+}
+.desc_block{
+  display:block;
+  max-width: 300px;
+}
+.desc_block_text{
+  width: 300px;
+}
+.space_text{
+  width: 300px;
+}
+.rogo_img{
+  width: 300px;
+}
+.sp_rogo{
+  margin-bottom: 30px;
+}
+.pic_up_text{
+  width: 300px;
+}
+}
