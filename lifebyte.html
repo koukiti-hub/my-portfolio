@@ -3,125 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/common.css">
-  <link rel="stylesheet" href="./css/desc.css">
-  <link href="https://fonts.googleapis.com/css?family=Delius+Unicase|Noto+Sans+JP:400,500|Source+Code+Pro&display=swap" rel="stylesheet">
-  <title>LifeByte</title>
+  <title>lifebyte/Koki Ishii Portfolio</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/work.css">
+  <link rel="stylesheet" href="css/drawer.min.css">
+  <link rel="apple-touch-icon" href="./image/apple-touch-icon.png">
 </head>
-<body>
-  <header>
-    <div class="header_wrap">
+<body class="drawer drawer--right">
+  <header role="banner">
+    <div class="header_inner">
       <div class="header_title">
         <a href="index.html">
+          <img src="./image/rogo.png" alt="#">
           <h1>KOKI ISHII</h1>
         </a>
       </div>
-      <div class="nav_wrap">
-        <nav class="nav">
-          <ul class="nav_list">
-            <li class="nav_item">
-              <a href="./index.html">Home</a>
-            </li>
-            <li class="nav_item">
-              <a href="./work.html">Works</a>
-            </li>
-            <li class="nav_item">
-              <a href="./about.html">About</a>
-            </li>
-            <li class="nav_item">
-              <a href="./pastime.html">Pastime</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="btn_trigger">
-        <span class="bar bar_top"></span>
-        <span class="bar bar_mid"></span>
-        <span class="bar bar_bottom"></span>
-      </div>
+      <button type="button" class="drawer-toggle drawer-hamburger">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+      </button>
+      <nav class="drawer-nav" role="navigation">
+        <ul class="drawer-menu">
+          <li><a class="drawer-brand" href="#">Menu</a></li>
+          <li><a class="drawer-menu-item" href="index.html">Home</a></li>
+          <li><a class="drawer-menu-item" href="about.html">Profile</a></li>
+          <li><a class="drawer-menu-item" href="work.html">Work</a></li>
+          <li><a class="drawer-menu-item" href="https://www.instagram.com/__x__e__n__o__/?hl=ja">Instagram</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
-
-  <section class="desc_heading">
-    <div class="desc_ttl">
-      <div class="desc_name">
-        <p>LifeByte(BtoC企業コーポレートサイト)</p>
-      </div>
-      <div class="desc_ttl_url">
-        <p>WebサイトURL</p>
-        <a href="https://lifebyte-demo.netlify.app">https://lifebyte-demo.netlify.app</a>
-      </div>
-      <div class="desc_ttl_txt">
-        <p>制作期間&emsp;<time>2020/4/19~5/6</time>(17日間)</p>
-        <p>担当&emsp;Hearing/Planning/Design/Coading/Photo</p>
-        <p>使用ツール&emsp;Figma/HTML/CSS/jQuery/Photoshop/illustrator</p>
+  <main role="main" id="main_visual">
+    <div class="space"></div>
+    <div class="bgi lifebyte">
+      <div class="desc_top">
+        <div class="mock">
+          <img src="./image/li_mock.png" alt="">
+        </div>
+        <div class="desc_title_text">
+          <div class="work_title">
+            <h4>LifeByte</h4>
+            <span>Corporate site</span>
+          </div>
+          <a href="https://lifebyte-demo.netlify.app" class="site_link"><span class="hover_items">https://lifebyte-demo.netlify.app</span></a>
+          <div class="work_date">
+            <h5>2020. 04/19 ~ 05/06</h5>
+            <p>Hearing / Planning / Design / Cording</p>
+          </div>
+          <div class="active_skill">
+            <p>Illustrator / Photoshop / Figma</p>
+            <p>HTML / CSS / jQuery</p>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
-
-  <section class="description_container">
-    <div class="description_img">
-      <img src="./image/lifebyte_top.png" alt="LifeByteトップページ 画像">
-    </div>
-    <div class="description_wrapper">
-      <div class="desc_img_sp">
-        <img src="./image/lifebyte.png" alt="LifeByteウェブサイトfv">
-      </div>
-      <div class="desc_section">
-        <strong>依頼内容</strong>
+    <section class="other_section">
+      <div class="desc_block">
+        <span class="desc_name">Request</span>
         <p>
-          大学生向けone-stepアプリを提供する「LifeByte」のコーポレートサイト制作
-        </p>
-        <span>
-          LifeByte
-        </span>
-        <span>目的</span>
-        <p>
-          起業に向けてコーポレートサイトの制作
+          大学生向けone-stepアプリ「ユニツ」を提供する「LifeByte」のコーポレートサイト制作
         </p>
         <p>
-          楽しそうな雰囲気が伝わるコーポレートサイトが欲しい。
-        </p>
-        <span>サイトを制作するに当たっての要望</span>
-        <p>
-          シンボルロゴの青色と白を基調したデザインにして欲しい。
-        </p>
-        <p>
-          明朝体のような細身で、「ハネ」「払い」が明確なフォントは使わないで欲しい。
-        </p>
-        <p>
-          トップページはサービスを目立たせたレイアウトにしたい。
-        </p>
-        <p>
-          遊び心あるデザインでありながら、コーポレートサイトとしての役目を果たせるサイトにして欲しい。
-        </p>
-        <p>
-          メインビジュアルはオフィスの画像（フリー素材）を使って欲しい。
+          ヒアリングからプランニング、デザイン、コーディング、スマートフォンとタブレットのレスポンシブ対応まで担当させて頂きました。
         </p>
       </div>
-      <div class="desc_section">
-        <strong>プロセス</strong>
-        <span>
-          コンセプト設計
-        </span>
+      <div class="desc_block">
+        <span class="desc_name">Concept</span>
+        <div class="concept">
+          <h6>もっと楽しく、もっと面白く</h6>
+          <h6>楽しくない仕事なんかより楽しい仕事がしたい。そんな人たちが集まる会社</h6>
+        </div>
         <p>
-          写真やフォントにアレンジを加えて遊び心を演出
+          遊び心あるデザインでありながら、コーポレートサイトとしての役目を果たせるデザイン。
         </p>
         <p>
-          カラーリングはロゴの青色を含めたドミナント・カラーで統一性を持たせる。
+          今後の新たなるサービスの展開を考慮して汎用性の高いシンプルなレイアウト。
         </p>
         <p>
-          今後の新たなサービスの展開を考慮し、汎用性の高いレイアウト。
+          動きのあるデザインで整理整頓され視認性にも考慮したメリハリあるデザインに。
         </p>
+      </div>
+      <div class="desc_block">
+        <span class="desc_name">Design</span>
         <p>
-          動きのあるデザインでありながら、整理整頓され視認性にも考慮したメリハリあるデザインに。
-        </p>
-        <span>
-          ワイヤーフレーム・デザイン
-        </span>
-        <p>
-          写真をハサミで大雑把にカットしたようなトリミングとメインコピーやセクションタイトルなど要所で手書き風のフォントを使用することで楽しそうな雰囲気を表現。
+          写真をハサミで大雑把にカットしたようなトリミングとメインコピーやセクションタイトルなど要所で手書き風で遊び心ある、楽しそうな雰囲気を表現。
         </p>
         <p>
           サービスはアプリアイコンのカラー帯をバックに敷いて目を引くデザインに。
@@ -130,28 +96,45 @@
           ベースフォントは可読性に優れているゴシック体を使用することでメインビジュアルや要所の手書き風フォントとバランスを取りながらデザインをグッと引き締めた。
         </p>
         <p>
-          遊び心を出しすぎて、ブランディングを落とさないようニュースやテキストは整頓し、デザインにメリハリをつけた。
-        </p>
-        <p>
-          フッターにサイトマップを取り入れ、ユーザービリティを考慮した。
+          遊び心を出しすぎて、ブランディングを落とさないようニュースやテキストの配置は整頓し、デザインにメリハリをつけた。
         </p>
       </div>
-    </div>
-  </section>
-  <section class="under_nav">
-    <ul class="under_nav_list">
-      <li class="under_nav_item"><a href="./index.html">Home</a></li>
-      <li class="under_nav_item"><a href="./work.html">Works</a></li>
-      <li class="under_nav_item"><a href="./about.html">About</a></li>
-      <li class="under_nav_item"><a href="./pastime.html">Pastime</a></li>
-    </ul>
-  </section>
-  <footer>
-    <small>&copy;2020 KOKI ISHII ALL RIGHTS RESERVED</small>
-  </footer>
+      <a class="back_btn" href="work.html">
+        <span class="arrow"></span><span class="after_arrow"></span>Work
+      </a>
+    </section>
+    <footer class="footer">
+      <div class=under_nav>
+        <ul class="under_nav_list">
+          <li class="under_nav_items"><a href="index.html"><span class="hover_items">Home</span></a></li>
+          <li class="under_nav_items"><a href="about.html"><span class="hover_items">Profile</span></a></li>
+          <li class="under_nav_items"><a href="work.html"><span class="hover_items">Work</span></a></li>
+        </ul>
+        <div class="sns">
+          <a href="https://www.instagram.com/__x__e__n__o__/?hl=ja">
+            <span class="hover_sns">
+              <p>Instagram</p>
+              <img src="./image/instagram_icon.svg" alt="">
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="other">
+        <span class="top_btn">
+          <a href="#main_visual">Page top</a>
+        </span>
+        <small>&copy; KOKI ISHII ALL RIGHTS RESERVED</small>
+      </div>
+    </footer>
+  </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="./js/portfolio.js"></script>
-  <div id="stalker"></div>
-  <!-- <div id="cursor"></div> -->
+  <script src="js/iscroll.js"></script>
+  <script src="js/drawer.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.drawer').drawer();
+    });
+    </script>
 </body>
 </html>

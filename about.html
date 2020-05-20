@@ -4,181 +4,276 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/common.css">
-  <link rel="stylesheet" href="./css/about.css">
-  <link href="https://fonts.googleapis.com/css?family=Delius+Unicase|Noto+Sans+JP:400,500|Source+Code+Pro&display=swap"
-    rel="stylesheet">
-  <title>About</title>
+  <title>Profile/Koki Ishii Portfolio</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/drawer.min.css">
+  <link rel="apple-touch-icon" href="./image/apple-touch-icon.png">
 </head>
 
-<body>
-  <div class="bgi_img">
-    <header>
-      <div id="header" class="header_wrap">
-        <div class="header_title">
-          <a href="index.html">
-            <h1>KOKI ISHII</h1>
+<body class="drawer drawer--right">
+  <header role="banner">
+    <div class="header_inner">
+      <div class="header_title">
+        <a href="index.html">
+          <img src="./image/rogo.png" alt="#">
+          <h1>KOKI ISHII</h1>
+        </a>
+      </div>
+      <button type="button" class="drawer-toggle drawer-hamburger">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+      </button>
+      <nav class="drawer-nav" role="navigation">
+        <ul class="drawer-menu">
+          <li><a class="drawer-brand" href="#">Menu</a></li>
+          <li><a class="drawer-menu-item" href="index.html">Home</a></li>
+          <li><a class="drawer-menu-item" href="about.html">Profile</a></li>
+          <li><a class="drawer-menu-item" href="work.html">Work</a></li>
+          <li><a class="drawer-menu-item" href="https://www.instagram.com/__x__e__n__o__/?hl=ja">Instagram</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main role="main">
+    <div class="page_title" id="main_visual">
+      <img src="./image/profile_title.png" alt="">
+    </div>
+    <section class="other_section">
+      <div class="profile">
+        <div class="profile_left">
+          <div class="top_unit">
+            <p>Profile<span></span></p>
+          </div>
+          <div class="photo">
+            <img src="./image/me.jpg" alt="">
+          </div>
+          <div class="profile_about">
+            <p><span>/</span>1998.11.18</p>
+            <p>神奈川県 海老名市 生まれ</p>
+          </div>
+          <span class="border"></span>
+          <div class="profile_name">
+            <span>石井 功希</span>
+            <p>KOKI ISHII</p>
+          </div>
+        </div>
+        <div class="profile_right">
+          <strong>Hobby</strong>
+          <div class="hobby_block">
+            <div class="hobby_title">
+              <span>お酒</span>
+              <p>ハイボール / モヒート / ウィスキー / ブランデー</p>
+            </div>
+            <p>
+              家でのんびり一人で飲むのが好き。
+            </p>
+          </div>
+          <div class="hobby_block">
+            <div class="hobby_title">
+              <span>読書</span>
+              <p>ミステリー / 自己啓発</p>
+            </div>
+            <p>
+              東野圭吾のガリレオシリーズが大好き。
+            </p>
+            <p>
+              個人的に好きなのは「容疑者Xの献身」と「沈黙のパレード」
+            </p>
+          </div>
+          <div class="hobby_block">
+            <div class="hobby_title">
+              <span>音楽</span>
+              <p>King gnu / TK from 凛として時雨 / Aimer etc.</p>
+            </div>
+            <p>
+              どちらかと言えば邦楽派。
+            </p>
+            <p>
+              ブラックミュージック、静かな曲、繊細で力強い曲が好き。
+            </p>
+          </div>
+          <div class="hobby_block">
+            <div class="hobby_title">
+              <span>ファッション</span>
+              <p>肌触り・質の良い Yシャツ / ローファー</p>
+            </div>
+            <p>
+              ドレス寄りのシンプルなコーディネートが好きで、ほとんどが暗色のアイテム。
+            </p>
+            <p>
+              １番のこだわりは靴。
+            </p>
+          </div>
+          <strong>Other</strong>
+          <div class="other_text">
+            <span>座右の銘</span>
+            <p>100か0か</p>
+          </div>
+          <div class="other_text">
+            <span>好きな食べ物</span>
+            <p>辛い食べ物全般　牡蠣　ホルモン　塩辛　チーズ</p>
+          </div>
+          <p class="profile_message">
+            高校卒業後、自動車業界の生産技術エンジニアとして2年9ヶ月従事。「自分の好きなことご飯食べて行きたい」という超安易な理由で2020年1月に退社。2月よりデザインの勉強を開始してデザインからコーディングまでできるように。
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="vision">
+        <span>課題を解決しビジネスの売上に繋げられるデザイナーになりたい</span>
+        <p>
+          本格的にデザインの勉強をする前の私は「斬新なアイデア」「綺麗な写真やイラスト、動画などで修飾されている」のが「良いデザイン」だと思っていました。しかし勉強を始めて気づいた事は自分の考えていた良いデザインは「自分勝手なデザイン」でしかないことが分かりました。
+        </p>
+        <p>
+          どんなに綺麗に修飾してもクライアントの課題を解決し、エンドユーザーに理解されなければ何の意味がありません。
+        </p>
+        <p>
+          今の目標は課題解決に導いて誰が見ても理解できるデザインをする事。＋αで競合他社と比較できるデザインをしたいと思っています。
+        </p>
+        <p>
+          その為には常日頃からトレンドに敏感であり、新しいことに積極的に挑戦し自分の技術を高めていくことが大切だと思います。私が理想とするデザイナー像は「常に新しいことに挑戦しクライアント、エンドユーザーそして自分自身も笑顔になれるwin-win-winのデザイナー」です。
+        <!-- </p>
+        <div class="vision_flame">
+          <img src="./image/pc_vison.png" alt="">
+        </div> -->
+      </div>
+    </section>
+    <section class="other_section">
+      <div class="skill_title">
+        <h2><span>S</span>kill</h2>
+      </div>
+      <div class="skill_block">
+        <div class="skill_content">
+          <div class="skill_content_inner">
+            <img src="./image/skill_ai.jpg" alt="">
+            <strong><span>▶︎</span>Illsutrator</strong>
+            <p>
+              <span>・</span>各ツールの操作を理解し、バナー、ロゴの作成ができる
+            </p>
+            <p>
+              <span>・</span>グラデーションメッシュ使用し、立体的なデザインができる
+            </p>
+          </div>
+        </div>
+        <div class="skill_content">
+          <div class="skill_content_inner">
+            <img src="./image/skill_html.jpg" alt="">
+            <strong><span>▶︎</span>HTML</strong>
+            <p>
+              <span>・</span>基本知識を理解してマークアップができる
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="skill_block">
+        <div class="skill_content">
+          <div class="skill_content_inner">
+            <img src="./image/skill_ps.jpg" alt="">
+            <strong><span>▶︎</span>Photoshop</strong>
+            <p>
+              <span>・</span>基本操作を理解し、マスク加工やトリミング、色調補正が行える
+            </p>
+            <p>
+              <span>・</span>ブラシツールで水しぶきや水滴のような表現ができる
+            </p>
+          </div>
+        </div>
+        <div class="skill_content">
+          <div class="skill_content_inner">
+            <img src="./image/skill_css.jpg" alt="">
+            <strong><span>▶︎</span>CSS</strong>
+            <p>
+              <span>・</span>基本知識を理解してサイトの修飾ができる
+            </p>
+            <p>
+              <span>・</span>メディアクエリを使用し、レスポンシブデザインへの対応ができる
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="skill_block">
+        <div class="skill_content">
+          <div class="skill_content_inner">
+            <img src="./image/skill_figma.jpg" alt="">
+            <strong><span>▶︎</span>Figma</strong>
+            <p>
+              <span>・</span>サイトデザイン ・ワイヤーフレームの作成ができる
+            </p>
+          </div>
+        </div>
+        <div class="skill_content">
+          <div class="skill_content_inner">
+            <img src="./image/skill_jquery.jpg" alt="">
+            <strong><span>▶︎</span>jQuery</strong>
+            <p>
+              <span>・</span>基本知識を理解してタブメニューやスライドショーの実装ができる
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="message">
+      <div class="message_inner">
+        <div class="message_text">
+          <p>
+            ポートフォリオをご覧いただきありがとうございます。この場ではもう少し僕という人間について知って頂きたいと思うので、ラフな言葉使いで書かせてもらいます。
+          </p>
+          <p>
+            そもそもWEB業界のデザイナーになろうと思った理由なんですけど、きっかけは2018年末、良く見ていた某ブロガーさんに「場所を問わず、自分の好きなこと・得意なことで生活できて良いな〜」という漠然とした憧れから、「自分もそんな生活がしたい！」と思い立って、好きなことの一つでもある「ファッション」について僕もブログで発信しようと思って、伸びるサイトの作り方、SEOやWebライティングについて仕事の合間を縫って、自分なりに勉強をはじめました。
+          </p>
+          <p>
+            テーマは、高校生・大学生の男性をターゲットにした「オシャレに関心があるけど、何をどんな風に着ればいいか分からない」といった人向けにお金をかけずにシンプルでカッコよく着こなすオシャレ術を発信することを目的としたブログで、僕にとってこのブログが初めてIT・WEB業界に触れた瞬間でした
+          </p>
+          <p>
+            そこで初めてサイトの修飾をしてみて不慣れながらも、あれこれ触って楽しくデザインしていたのを今も覚えています。とはいっても無料テンプレートテーマをいくつか反映してヘッダーやフッターの色を変えたり、画像を挿入しただけなのですが（笑）それでもやっぱり「コレだ！！」って思うテーマがなかったんですよね。「もっと細かく、設定できる方法ないかな〜」ってググってたらHTML / CSSを変えれば詳細にデザインを変更できたり、Webサイト自体も自分で作れるという情報を目にして、すぐ取り掛かったんですよ...でも、無理でした（笑）サーバーやドメインを借りてサイトを立ち上げただけでも理解するのに、かなり時間がかかったのに、コードとやらを見てみれば専門用語なのか、英語なのか良く分からない英字の羅列...当時は本業の仕事も忙しく中々時間が取れず、断念しました。
+          </p>
+          <p>
+            でも、その時に「これ覚えて自分の好きなようにサイト作れたら楽しいだろうな」って思って、そこからwebデザイナーになろうと思ったんですよね。それから色々と準備を初めて、2020年の1月に仕事を辞めて本気で勉強をはじめました。簡単な事ばかりじゃないけど、好きな事、興味のある事をやっているのと同じで、やってみたかった事って時間を忘れて没頭できるんですよね。日々勉強に明け暮れていますが、なんだかんだ毎日充実してて楽しいです（笑）
+          </p>
+          <p>
+            ダラダラと書きたいことを書いてしまいましたが、それではここら辺で。ありがとうございました。
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class=under_nav>
+        <ul class="under_nav_list">
+          <li class="under_nav_items"><a href="index.html"><span class="hover_items">Home</span></a></li>
+          <li class="under_nav_items"><a href="#main_visual"><span class="hover_items">Profile</span></a></li>
+          <li class="under_nav_items"><a href="work.html"><span class="hover_items">Work</span></a></li>
+        </ul>
+        <div class="sns">
+          <a href="https://www.instagram.com/__x__e__n__o__/?hl=ja">
+            <span class="hover_sns">
+              <p>Instagram</p>
+              <img src="./image/instagram_icon.svg" alt="">
+            </span>
           </a>
         </div>
-        <div class="nav_wrap">
-          <nav class="nav">
-            <ul class="nav_list">
-              <li class="nav_item">
-                <a href="./index.html">Home</a>
-              </li>
-              <li class="nav_item">
-                <a href="./work.html">Works</a>
-              </li>
-              <li class="nav_item">
-                <a href="./about.html">About</a>
-              </li>
-              <li class="nav_item">
-                <a href="./pastime.html">Pastime</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="btn_trigger">
-          <span class="bar bar_top"></span>
-          <span class="bar bar_mid"></span>
-          <span class="bar bar_bottom"></span>
-        </div>
       </div>
-    </header>
-
-    <section class="about_article">
-      <div class="about_title">
-        <p>About</p>
+      <div class="other">
+        <span class="top_btn">
+          <a href="#main_visual">Page top</a>
+        </span>
+        <small>&copy; KOKI ISHII ALL RIGHTS RESERVED</small>
       </div>
-      <div class="about_subtitle">
-        <p>
-          Make&thinsp;people&thinsp;smile&thinsp;through&thinsp;design.
-        </p>
-      </div>
-      <div class="about_article_text">
-        <h3>自分で作り出したデザインで人を笑顔にし、人の役に立ちたい</h3>
-        <p>
-          前職では決められた手順で作業していく「ルーティンワーク」をしていた私は自分で１から考え、計画し作り出す仕事に憧れ興味をもっていました。人の為に何かをするのが好き。自分の作ったもので誰かの役に立ち笑顔になって欲しい。というスタンスを持つ私は「Webデザイナー」がクライアントの要望を元に課題解決に導き、ユーザーにとって使いやすく分かりやすいデザインする仕事だと知り興味を持ちました。
-        </p>
-      </div>
-    </section>
-    <section class="section">
-      <h2>Profile</h2>
-      <div class="about_wrap">
-        <div class="profile_img">
-          <img src="./image/me.png" alt="石井功希の顔写真">
-        </div>
-        <div class="profile_text">
-          <p>
-            1998/11.18
-          </p>
-          <p>
-            高校卒業後、自動車業界のエンジニアとして2年9ヶ月従事。「もっとクリエイティブな仕事がしたい」、「今後も更に需要が高まっていくIT業界でデザイナーとして働きたい」と思い、2020年1月に退社。2月からWebデザイナーになるべく勉強を開始。今ではデザインからコーディングまで行えるようになりました。好きなことは「お酒」「靴磨き」「読書」「音楽鑑賞」
-          </p>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="vision">
-        <h2>Vision</h2>
-        <h3>＃クライアントの課題を解決しビジネスの売上に繋げられるデザイナーになりたい</h3>
-        <p>
-          本格的にデザインの勉強をする前の私は「斬新なアイデア」「綺麗な写真やイラスト、動画などで修飾されている」のが「良いデザイン」だと思っていました。しかし,勉強を始めて気づいたことは自分の考えていた良いデザインは「自分勝手なデザイン」でしかないことが分かりました。
-        </p>
-        <p>
-          どんなに綺麗に修飾してもクライアントの課題を解決し、エンドユーザーに理解されなければ何の意味がありません。今の目標は課題解決に導いて誰が見ても理解できるデザインをする事。＋αで競合他社と比較できるデザインをしたいと思っています。
-        </p>
-        <p>
-          その為には常日頃からトレンドに敏感であり、新しいことに積極的に挑戦し自分の技術を高めていくことが大切だと思います。
-        </p>
-        <p>
-          私が理想とするデザイナー像は「常に新しいことに挑戦しクライアント、エンドユーザーそして自分自身も笑顔になれるwin-win-winのデザイナー」です。
-        </p>
-      </div>
-    </section>
-    <section class="section">
-      <h2>Skill</h2>
-      <div class="skill_wrap">
-        <ul class="skill_list">
-          <li class="skill_item">
-            <div class="skill_item_title">
-              <p>Photoshop</p><span>★★★☆☆</span>
-            </div>
-            <p>基本操作を理解し色調補正やトリミングが行える</p>
-          </li>
-          <li class="skill_item">
-            <div class="skill_item_title">
-              <p>Illustrator</p><span>★★★★☆</span>
-            </div>
-            <p>各ツールの操作方法を理解しバナー、ロゴ作成が行える</p>
-          </li>
-          <li class="skill_item">
-            <div class="skill_item_title">
-              <p>Figma</p><span>★★★★☆</span>
-            </div>
-            <p>サイトデザイン、ワイヤーフレーム作成が行える</p>
-          </li>
-          <li class="skill_item">
-            <div class="skill_item_title">
-              <p>HTML</p><span>★★★★☆</span>
-            </div>
-            <p>基本知識を理解してソースコードを記述できる</p>
-          </li>
-          <li class="skill_item">
-            <div class="skill_item_title">
-              <p>CSS</p><span>★★★★☆</span>
-            </div>
-            <p>基本知識を理解してサイトを修飾、レスポンシブデザインにも対応できる</p>
-          </li>
-          <li class="skill_item">
-            <div class="skill_item_title">
-              <p>jQuery</p><span>★★★☆☆</span>
-            </div>
-            <p>基本知識を理解してタブメニュー、スライドショーの実装ができる</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="section">
-      <h2>Trait</h2>
-      <ul class="trait_list">
-        <li class="trait_item">
-          #静かなところが好き
-        </li>
-        <li class="trait_item">
-          #人に興味がなさそうと言われる
-        </li>
-        <li class="trait_item">
-          #ドライに見られるが内面は情熱的
-        </li>
-        <li class="trait_item">
-          #NO.2のポジションが最も力が発揮できる
-        </li>
-        <li class="trait_item">
-          #何事も「量より質」
-        </li>
-        <li class="trait_item">
-          #動物に例えるならメンフクロウ
-        </li>
-      </ul>
-    </section>
-    <section class="under_nav">
-      <ul class="under_nav_list">
-        <li class="under_nav_item"><a href="./index.html">Home</a></li>
-        <li class="under_nav_item"><a href="./work.html">Works</a></li>
-        <li class="under_nav_item"><a href=#header>About</a></li>
-        <li class="under_nav_item"><a href="./pastime.html">Pastime</a></li>
-      </ul>
-    </section>
-  </div>
-  <footer>
-    <small>&copy;2020 KOKI ISHII ALL RIGHTS RESERVED</small>
-  </footer>
+    </footer>
+  </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="./js/portfolio.js"></script>
-  <div id="stalker"></div>
-  <!-- <div id="cursor"></div> -->
+  <script src="js/iscroll.js"></script>
+  <script src="js/drawer.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.drawer').drawer();
+    });
+    </script>
 </body>
 
 </html>

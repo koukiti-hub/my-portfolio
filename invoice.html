@@ -4,204 +4,143 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/common.css">
-  <link rel="stylesheet" href="./css/desc.css">
-  <link href="https://fonts.googleapis.com/css?family=Delius+Unicase|Noto+Sans+JP:400,500|Source+Code+Pro&display=swap"
-    rel="stylesheet">
-  <title>INVOICE</title>
+  <title>INVOICE/Koki Ishii Portfolio</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/work.css">
+  <link rel="stylesheet" href="css/drawer.min.css">
+  <link rel="apple-touch-icon" href="./image/apple-touch-icon.png">
 </head>
 
-<body>
-  <header>
-    <div class="header_wrap">
+<body class="drawer drawer--right">
+  <header role="banner">
+    <div class="header_inner">
       <div class="header_title">
         <a href="index.html">
+          <img src="./image/rogo.png" alt="#">
           <h1>KOKI ISHII</h1>
         </a>
       </div>
-      <div class="nav_wrap">
-        <nav class="nav">
-          <ul class="nav_list">
-            <li class="nav_item">
-              <a href="./index.html">Home</a>
-            </li>
-            <li class="nav_item">
-              <a href="./work.html">Works</a>
-            </li>
-            <li class="nav_item">
-              <a href="./about.html">About</a>
-            </li>
-            <li class="nav_item">
-              <a href="./pastime.html">Pastime</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="btn_trigger">
-        <span class="bar bar_top"></span>
-        <span class="bar bar_mid"></span>
-        <span class="bar bar_bottom"></span>
-      </div>
+      <button type="button" class="drawer-toggle drawer-hamburger">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+      </button>
+      <nav class="drawer-nav" role="navigation">
+        <ul class="drawer-menu">
+          <li><a class="drawer-brand" href="#">Menu</a></li>
+          <li><a class="drawer-menu-item" href="index.html">Home</a></li>
+          <li><a class="drawer-menu-item" href="about.html">Profile</a></li>
+          <li><a class="drawer-menu-item" href="work.html">Work</a></li>
+          <li><a class="drawer-menu-item" href="https://www.instagram.com/__x__e__n__o__/?hl=ja">Instagram</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
-  <section class="desc_heading">
-    <div class="desc_ttl">
-      <div class="desc_name">
-        <p>株式会社&thinsp;INVOICE(架空BtoB企業CS)</p>
-      </div>
-      <div class="desc_ttl_url">
-        <p>WebサイトURL</p>
-        <a href="https://invoice-cs.netlify.com">https://invoice-cs.netlify.com</a>
-      </div>
-      <div class="desc_ttl_txt">
-        <p>制作期間&emsp;<time>2020/3/23~4/4</time>(11日間)</p>
-        <p>担当&emsp;Hearing/Planning/Design/Coading/Photo</p>
-        <p>使用ツール&emsp;Figma/HTML/CSS/jQuery/Photoshop</p>
-      </div>
-    </div>
-  </section>
-  <section class="description_container">
-    <div class="description_img">
-      <div><img src="./image/invoice_top.png" alt="INVOICEトップページ "></div>
-      <div class="next_img"><img src="./image/invoice_other.png" alt="INVOICE仮想ページ"></div>
-      <div class="next_img"><img src="./image/invoice_sp.png" alt="INVOICEスマホサイト"></div>
-    </div>
-    <div class="description_wrapper">
-      <div class="desc_img_sp">
-        <img src="./image/invoice.png" alt="INVOICEコーポレートサイトfv">
-      </div>
-      <div class="desc_section">
-        <strong>依頼内容</strong>
-        <p>
-          BtoB（企業間電子商取引）プラットフォームの運営企業「株式会社INVOICE」のコーポレートサイト制作
-        </p>
-        <span>
-          株式会社 INVOICE
-        </span>
-        <p>
-          〒150-0041<br>東京都渋谷区神南1丁目12−16アジアビル8F
-        </p>
-        <p>
-          <p>
-            事業内容 : BtoBプラットフォームの運営
-          </p>
-          設立 : 2019年7月10日
-        </p>
-        <p>
-          資本金 : 5,000,000円
-        </p>
-        <p>
-          従業員数 : 5名
-        </p>
-        <span>目的</span>
-        <p>
-          LPを見た潜在顧客の自然流入を想定
-        </p>
-        <p>
-          サイトを訪れた人に信頼感を与えるコーポレートサイトがほしい。
-        </p>
-        <span>サイトを制作するに当たっての要望</span>
-        <p>
-          無駄と思える修飾が無く、シンプルで情報が整理整頓されているサイトが良い
-        </p>
-        <p>
-          企業情報はしっかり載せて、どんな企業か分かりやすい、企業にフォーカスしてもらえるサイトにして欲しい
-        </p>
-        <p>
-          エンジニアメインの会社のため、バックオフィスの人員が少なく業務が煩雑になってきているのでコーポレートサイトを機に少しでも解消できれば良いなと思っている。
-        </p>
-      </div>
-      <div class="desc_section">
-        <strong>顧客</strong>
-        <span>
-          ターゲット
-        </span>
-        <p>中小企業の経理担当者</p>
-        <p>請求書業務にかかるコストや僅かなミスも許されないストレスフルの作業が煩わしい。</p>
-        <p>仕約しながら、データ化する手間と時間。請求書到着遅れによる決算の遅れに悩んでいる。</p>
-        <span>
-          ニーズ
-        </span>
-        <p>大幅なコストの削減（人件費、郵送費、紙・インク）</p>
-        <p>業務の効率化（クラウド上のやり取りなので到着の遅れやデータ化する必要がなく工数削減に繋がる）</p>
-        <p>税務署の申請がいらない</p>
-        <span>
-          課題
-        </span>
-        <p>サービスによっては発行側にしかメリットがなく、得意先に了承してもらえない可能性がある。</p>
-        <p>IT リテラシーがない人だと分かりづらく難しい。</p>
-        <p>会社の重要なデータなのでサービス・企業共に信頼性も必要。</p>
-      </div>
-      <div class="desc_section">
-        <strong>競合サイトの特徴</strong>
-        <span>
-          A社
-        </span>
-        <p>サイトカラーはオレンジと白色（活発、フットワークが軽そうな印象）</p>
-        <p>競合内で最も、会社のビジョン、どの規模の企業がターゲットなのかが分かりやすく、会社の全体像がハッキリしていて信頼できる</p>
-        <p>マウスポインターをはじめ、全体的に動きの多いサイトでレイアウトもオシャレで今どきな印象。</p>
-        <span>
-          B社
-        </span>
-        <p>サイトカラーは水色と白（theテクノロジー企業、少し硬い印象）</p>
-        <p>競合内では最も自社サービスを強調したレイアウト、サービスlpへのリンクが多い</p>
-        <p>会社概要や代表挨拶がサイト下部にまとめられていて直感的に操作可能</p>
-        <span>
-          C社
-        </span>
-        <p>サイトカラーは青と白、問い合わせボタンがオレンジ</p>
-        <p>競合内では最も直感的に操作できるレイアウト、各セクションが6つのブロックで分けられている。</p>
-        <p>サイト内の動きもなく、単調でアナログな印象</p>
-      </div>
-      <div class="desc_section">
-        <strong>自社</strong>
-        <span>
-          強み
-        </span>
-        <p>請求書業務に関するコスト削減率、工数削減率 業界No.1</p>
-        <p>一つのツールで請求書の作成から共有までできるプラットフォーム型サービス</p>
-        <p>かつ競合サービスの中でも「直感的な UI 設計」・「低価格のサービス」</p>
-        <p>サービス利用時にプラットフォームな為税務署への申請が必要ない</p>
-        <span>
-          弱み
-        </span>
-        <p>2019年 7月設立の駆け出し企業で競合他社と比較するとサービス・企業ともに信頼性、知名度が低い。</p>
-      </div>
-      <div class="desc_section">
-        <strong>プロセス</strong>
-        <span>
-          コンセプト設計
-        </span>
-        <p>企業の全体像がハッキリしていて信頼感のあるサイト</p>
-        <p>企業の情報、サービス内容が整理整頓されて載せられている</p>
-        <p>他社には無いサービスの強みを明確かつ完結に伝える</p>
-        <span>
-          ワイヤーフレーム・デザイン
-        </span>
-        <p>優先度の高い情報から順にサイトを構成。</p>
-        <p>サイト内で今後、最も更新頻度の高い「ニュース」を最初に配置することで活動している企業だということをアピール</p>
-        <p>会社概要、企業理念については会社の全体像を把握するのに最も有効なので背景色とフォントカラーを反転し、目立つようにした。</p>
-        <p>セクションタイトルは左側に、コンテンツは右側に配置することで右から左へ視線誘導を促すことで読みやすいようにした。</p>
-        <p>サービス導入企業のレビューを載せることでサービスとしての信頼感、見込み客に対して導入後のイメージを湧きやすくする。</p>
+  <main role="main" id="main_visual">
+    <div class="space"></div>
+    <div class="bgi invoice">
+      <div class="desc_top">
+        <div class="mock">
+          <img src="./image/i_mock.png" alt="">
+        </div>
+        <div class="desc_title_text">
+          <div class="work_title">
+            <h4>株式会社 INVOICE</h4>
+            <span>Corporate site</span>
+          </div>
+          <a href="https://lifebyte-demo.netlify.app" class="site_link"><span class="hover_items">https://lifebyte-demo.netlify.app</span></a>
+          <div class="work_date">
+            <h5>2020. 03/23 ~ 04/04</h5>
+            <p>Hearing / Planning / Design / Cording</p>
+          </div>
+          <div class="active_skill">
+            <p>Photoshop / Figma</p>
+            <p>HTML / CSS / jQuery</p>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
-  <section class="under_nav">
-    <ul class="under_nav_list">
-      <li class="under_nav_item"><a href="./index.html">Home</a></li>
-      <li class="under_nav_item"><a href="./work.html">Works</a></li>
-      <li class="under_nav_item"><a href="./about.html">About</a></li>
-      <li class="under_nav_item"><a href="./pastime.html">Pastime</a></li>
-    </ul>
-  </section>
-  <footer>
-    <small>&copy;2020 KOKI ISHII ALL RIGHTS RESERVED</small>
-  </footer>
+    <section class="other_section">
+      <div class="desc_block">
+        <span class="desc_name">Request</span>
+        <p>
+          企業間電子商取引プラットフォームを運営する、2019年7月設立の駆け出し企業「株式会社INVOICE」のコーポレートサイト制作
+        </p>
+        <p>
+          ヒアリングからプランニング、デザイン、コーディング、スマートフォンのレスポンシブ対応まで担当させて頂きました。
+        </p>
+        <strong>
+          ※株式会社 INVOICEは架空の企業です。実在の人物、団体などとは関係ありません。
+        </strong>
+      </div>
+      <div class="desc_block">
+        <span class="desc_name">Concept</span>
+        <div class="concept">
+          <h6>シンプルで無駄のない洗練されたデザイン</h6>
+          <h6>自社サービスを強く押しつつも企業としての信頼感があるコーポレートサイト</h6>
+        </div>
+        <p>
+          会社概要で企業情報や社員の顔写真を使う事で企業としての全体像を把握させ信頼感を上げる
+        </p>
+        <p>
+          競合他社にはないサービスの強みを明確かつ端的に伝える
+        </p>
+        <p>
+          BtoB企業コーポレートサイトにありがちな硬いイメージを感じさせないお洒落な配色
+        </p>
+      </div>
+      <div class="desc_block">
+        <span class="desc_name">Design</span>
+        <p>
+          サイト内で今後、最も更新頻度の高い「News」を最初に配置する事でしっかり活動している企業だとアピール。
+        </p>
+        <p>
+          見込み客に対して導入後のイメージとサービスへの信頼感が付きやすくなるように導入企業だけでなく、実際に導入した企業の「声」を入れた。
+        </p>
+        <p>
+          セクションタイトルは左側に、コンテンツは右側に配置する事で左から右への視線誘導を促し読みやすいレイアウト。
+        </p>
+        <p>
+          コーポレートカラーの紺色と相性の良い「アイボリーブラック」をメインカラーに、アクセントカラーには暖色の「オレンジ」を採用し落ち着いた印象でありながら硬すぎずオシャレなイメージに。
+        </p>
+      </div>
+      <a class="back_btn" href="work.html">
+        <span class="arrow"></span><span class="after_arrow"></span>Work
+      </a>
+    </section>
+    <footer class="footer">
+      <div class=under_nav>
+        <ul class="under_nav_list">
+          <li class="under_nav_items"><a href="index.html"><span class="hover_items">Home</span></a></li>
+          <li class="under_nav_items"><a href="about.html"><span class="hover_items">Profile</span></a></li>
+          <li class="under_nav_items"><a href="work.html"><span class="hover_items">Work</span></a></li>
+        </ul>
+        <div class="sns">
+          <a href="https://www.instagram.com/__x__e__n__o__/?hl=ja">
+            <span class="hover_sns">
+              <p>Instagram</p>
+              <img src="./image/instagram_icon.svg" alt="">
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="other">
+        <span class="top_btn">
+          <a href="#main_visual">Page top</a>
+        </span>
+        <small>&copy; KOKI ISHII ALL RIGHTS RESERVED</small>
+      </div>
+    </footer>
+  </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="./js/portfolio.js"></script>
-  <div id="stalker"></div>
-  <div id="cursor"></div>
+  <script src="js/iscroll.js"></script>
+  <script src="js/drawer.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.drawer').drawer();
+    });
+    </script>
 </body>
 
 </html>

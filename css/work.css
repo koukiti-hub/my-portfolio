@@ -1,0 +1,454 @@
+/* ----------------------------------------------------- */
+/* work.html / other-work.html
+/* ----------------------------------------------------- */
+.work_nav{
+  max-width: 1000px;
+  margin: 0 auto 70px; 
+  display: flex;
+  justify-content: flex-end;
+}
+.work_nav_inner{
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.work_nav_inner a{
+  transition: all 0.4s;
+}
+.work_nav_inner a:hover{
+  color: #0DFFD3;
+  transition: all 0.4s;
+}
+.select{
+  border-bottom: #0DFFD3 solid 1px;
+}
+.work_block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.odd{
+  flex-direction: row-reverse;
+}
+.work_block:nth-child(n + 2){
+  margin-top: 150px;
+}
+.work_detail{
+  max-width: 500px;
+}
+.other_work_detail{
+  text-align: center;
+  width: 330px;
+}
+.work_detail p{
+  font-size: 20px;
+}
+.work_detail h4{
+  font-size: 26px;
+  margin: 20px 0 10px;
+}
+.site_link{
+  display: block;
+  color: #0DFFD3;
+  font-size: 17px;
+  transition: all 0.4s;
+}
+.site_link:hover .hover_items:after{
+  width: 100%;
+}
+.work_desc{
+  display: block;
+  width: 200px;
+  margin-top: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+.other_work_desc{
+  margin: 60px auto 0;
+}
+.work_desc:hover .hover_name:after{
+  width: 100%;
+}
+.work_desc:before{
+  display: block;
+  content: "";
+  border-bottom: 2px solid #fff;
+  width: 200px;
+  margin-bottom: 15px;
+}
+.work_desc:after{
+  display: block;
+  content: "";
+  border-bottom: 2px solid #fff;
+  width: 200px;
+  margin-top: 15px;
+}
+.work_img{
+  max-width: 500px;
+}
+.page_nav{
+  display: flex;
+  justify-content: space-around;
+  max-width: 200px;
+  margin: 150px auto 0;
+}
+.page_nav a{
+  font-size: 23px;
+  font-family: 'HiraKakuPro-W6';
+}
+.no_select{
+  transition: all 0.4s;
+}
+.no_select:hover{
+  transition: all 0.4s;
+  color: #0DFFD3;
+}
+.page_select{
+  width: 30px;
+  text-align: center;
+  background-color: #0DFFD3;
+  color: #100f10;
+}
+/* ----------------------------------------------------- */
+/* Web site　概要ページ CSS
+/* ----------------------------------------------------- */
+.desc_top{
+  max-width: 1100px;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 25px 0;
+}
+.bgi{
+  background-blend-mode: soft-light;
+  background-color: rgba(16, 15, 16, .70);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.space{
+  height: 150px;
+}
+.mock{
+  max-width: 600px;
+}
+.desc_title_text{
+  max-width: 430px;
+}
+.other_desc_title{
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+.work_title{
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.work_title h4{
+  font-size: 25px;
+  margin-right: 50px;
+}
+.work_date{
+  margin: 30px 0;
+  font-size: 16px;
+}
+h5{
+  margin-bottom: 20px;
+}
+.active_skill p:nth-child(n + 2){
+  margin-top: 10px;
+}
+
+.desc_block:nth-child(1){
+  padding-top: 100px;
+}
+.desc_block:nth-child(n + 2){
+  margin-top: 100px;
+}
+.desc_block p{
+  max-width: 1010px;
+  margin: 0 auto;
+}
+.desc_block p:nth-child(n + 2){
+  margin-top: 20px;
+}
+.desc_block strong{
+  display: block;
+  font-size: 14px;
+  color: #0DFFD3;
+  max-width: 1010px;
+  margin: 20px auto 0;
+}
+.concept{
+  margin-bottom: 40px;
+}
+h6{
+  font-size: 20px;
+  max-width: 1010px;
+  margin: 0 auto 15px;
+  letter-spacing: 0.2rem;
+}
+.desc_name{
+  display: block;
+  position:relative;
+  font-size: 16px;
+	padding:2px 48px;
+	border-bottom:1px solid #0DFFD3;
+  margin-bottom: 30px;
+}
+.desc_name:first-letter{color:#0DFFD3;}
+.desc_name:before, .desc_name:after{
+	content:"";
+	display:block;
+	position:absolute;
+}
+.desc_name:before{
+	width:32px;height:32px;
+	border-radius:50%;
+	border:1px solid #0DFFD3;
+	bottom:-16px;
+	left:8px;
+}
+.desc_name:after{
+	height:64px;
+	border-left:1px solid #0DFFD3;
+	bottom:-32px;
+	left:24px;
+}
+.back_btn{
+  display: block;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 95px;
+  transition: all 0.4s;
+}
+.back_btn:hover{
+  color: #0DFFD3;
+  transition: all 0.4s;
+}
+.arrow{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-bottom: 1px;
+  border-left: 2px solid #0DFFD3;
+  border-bottom: 2px solid #0DFFD3;
+  transform: rotate(45deg);
+}
+.after_arrow{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  border-left: 2px solid #0DFFD3;
+  border-bottom: 2px solid #0DFFD3;
+  transform: rotate(45deg);
+}
+.other_work_img{
+  max-width: 900px;
+  margin: 100px auto 0;
+}
+.lifebyte{
+  background-image: url(../image/lifebyte_img.png);
+}
+.gelateria{
+  background-image: url(../image/gelateria_img.png);
+}
+.invoice{
+  background-image: url(../image/invoice_img.png);
+}
+.bose{
+  background-image: url(../image/bose_img.png);
+}
+.hadalabo{
+  background-image: url(../image/hadalabo_img.png);
+}
+.t-site{
+  background-image: url(../image/t-site_img.png);
+}
+.zucca{
+  background-image: url(../image/zucca_img.png);
+}
+.tech{
+  background-image: url(../image/tech_bgi.png);
+}
+/* ----------------------------------------------------- */
+/* sp
+/* ----------------------------------------------------- */
+@media screen and (max-width:450px){
+/* ----------------------------------------------------- */
+/* work.html / other-work.html
+/* ----------------------------------------------------- */
+.work_nav{
+  max-width: 310px;
+  margin: 0 auto 100px; 
+}
+.work_nav_inner{
+  width: 310px;
+}
+.work_block{
+  display: block;
+}
+.work_block:nth-child(n + 2){
+  margin-top: 100px;
+}
+.work_detail{
+  max-width: 345px;
+  text-align: center;
+  margin-top: 40px;
+}
+.other_work_detail{
+  width: 345px;
+}
+.work_detail p{
+  font-size: 15px;
+}
+.work_detail h4{
+  font-size: 20px;
+  margin: 10px 0 20px;
+}
+.site_link{
+  font-size: 16px;
+}
+.work_desc{
+  margin: 50px auto 0;
+  font-weight: bold;
+}
+.other_work_desc{
+  margin: 30px auto 0;
+}
+.work_img{
+  max-width: 345px;
+}
+.page_nav{
+  margin: 100px auto 0;
+}
+.page_nav a{
+  font-size: 20px;
+}
+/* ----------------------------------------------------- */
+/* Web site　概要ページ CSS
+/* ----------------------------------------------------- */
+.desc_top{
+  max-width: 345px;
+  height: auto;
+  display: block;
+  padding: 25px 0;
+}
+.bgi{
+  background-attachment: scroll;
+  background-size: cover;
+  /* background-position: top; */
+}
+.space{
+  height: 140px;
+}
+.mock{
+  max-width: 345px;
+  margin-bottom: 40px;
+}
+.desc_title_text{
+  max-width: 345px;
+}
+.other_desc_title{
+  max-width: 345px;
+  text-align: center;
+  margin: 0 auto;
+}
+.other_desc_title h4{
+  width: 300px;
+  margin: 0 auto;
+}
+.work_title{
+  display: block;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.work_title h4{
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.work_date{
+  font-size: 15px;
+}
+
+.desc_block:nth-child(1){
+  padding-top: 50px;
+}
+.desc_block:nth-child(n + 2){
+  margin-top: 60px;
+}
+.desc_block p{
+  max-width: 345px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.desc_block p:nth-child(n + 2){
+  margin-top: 15px;
+}
+.desc_block strong{
+  font-size: 13px;
+  max-width: 345px;
+  margin: 20px auto 0;
+}
+.concept{
+  margin-bottom: 35px;
+}
+h6{
+  font-size: 17px;
+  max-width: 345px;
+  letter-spacing: 0.1rem;
+}
+.desc_name{
+  font-size: 16px;
+	padding: 0;
+}
+.desc_name:first-letter{color:#0DFFD3;}
+.desc_name:before, .desc_name:after{
+	display: none;
+}
+.back_btn{
+  font-size: 18px;
+  margin-top: 100px;
+}
+.other_work_img{
+  max-width: 345px;
+  margin: 40px auto 50px;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.lifebyte{
+  background-image: none;
+}
+.gelateria{
+  background-image: none;
+}
+.invoice{
+  background-image: none;
+}
+.bose{
+  background-image: none;
+}
+.hadalabo{
+  background-image: none;
+}
+.t-site{
+  background-image: none;
+}
+.zucca{
+  background-image: none;
+}
+.tech{
+  background-image: none;
+}
+}
+/* ----------------------------------------------------- */
+/* ----------------------------------------------------- */

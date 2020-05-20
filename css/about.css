@@ -1,177 +1,377 @@
-.about_article{
-  width: 828px;
-  margin: 0 auto;
-  padding-top: 150px;
+/* ----------------------------------------------- */
+/* profile
+/* ----------------------------------------------- */
+.profile{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 200px;
+}
+.profile_left{
+  width: 400px;
+}
+.top_unit{
+  width: 81px;
+  background-color: #0DFFD3;
   text-align: center;
+  box-shadow: #0DFFD3 0 0 5px;
 }
-.about_title{
-  font-size: 35px;
-  font-family: 'Source Code Pro';;
-  margin-bottom: 100px;
+.top_unit p{
+  color: #100f10;
+  font-size: 16px;
 }
-.about_title::after{
+.top_unit span{
   display: block;
-  width: 55px;
-  height: 0;
   content: "";
-  border-top: 2px solid #0000ff;
-  margin: 10px auto 0;
+  border-bottom: 1px solid #0DFFD3;
+  width: 400px;
+  box-shadow: #0DFFD3 0 0 5px;
 }
-.about_subtitle{
-  font-size: 40px;
-  font-family: 'Source Code Pro';
-  margin-bottom: 60px;
+.photo{
+  width: 400px;
+  margin: 30px 0;
 }
-.about_article_text p{
-  letter-spacing: 2px;
-  text-align: left;
-  line-height: 1.5;
-  margin-top: 30px;
+.profile_about{
+  color: #0DFFD3;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+.profile_about span{
+  font-size: 16px;
+}
+.profile_about p:last-child{
+  margin-left: 30px;
+}
+.border{
+  display: block;
+  content: "";
+  border-bottom: 1px solid #0DFFD3;
+  width: 400px;
+  box-shadow: #0DFFD3 0 0 5px;
+  margin-top: 5px;
+}
+.profile_name{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  font-family: 'HiraKakuPro-W6';
+}
+.profile_name span{
+  font-size: 27px;
+  margin-right: 40px;
+}
+.profile_name p{
+  font-size: 20px;
 }
 
-
-.profile_text{
-  width: 578px;
+.profile_right{
+  width: 600px;
 }
-.profile_text p{
+.profile_right strong{
+  display: block;
+  font-size: 18px;
+  color: #0DFFD3;
+  text-shadow: #0DFFD3 0 0 5px;
   margin-bottom: 20px;
-  letter-spacing: 2px;
 }
-.profile_text p:last-child{
-  margin-bottom: 0;
-}
-
-.vision h3{
-  margin-bottom: 40px;
-}
-.vision p{
-  letter-spacing: 1.5px;
+.hobby_block{
   margin-bottom: 30px;
 }
-.vision p:last-child{
-  margin-bottom: 0;
-}
-
-
-.skill_wrap{
-  background-color: #f7f7f7;
-  width: 655px;
-  margin: 0 auto;
-  box-shadow: 3px 4px 4px rgba(0, 0, 0, .25);
-}
-.skill_list{
+.hobby_title{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 30px 40px;
-}
-.skill_item{
+  align-items: center;
+  height: 24px;
   font-size: 16px;
-  width: 228px;
-  margin-bottom: 15px;
-  letter-spacing: 2px;
+  margin-bottom: 22px;
 }
-.skill_item_title{
-  font-size: 18px;
+.hobby_title span{
+  width: 106px;
+  font-weight: bold;
+  margin-right: 60px;
+  height: 24px;
+}
+.hobby_title span:after{
+  display: block;
+  content: "";
+  border-bottom: 1px solid #0DFFD3;
+  width: 600px;
+  box-shadow: #0DFFD3 0 0 5px;
+  margin-top: 10px;
+}
+.hobby_block p{
+  font-size: 14px;
+}
+.other_text{
   display: flex;
+}
+.other_text:nth-last-child(2){
+  margin-top: 10px;
+}
+.other_text span{
+  width: 100px;
+  margin-right: 45px;
+}
+.profile_message{
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 40px;
+}
+/* ----------------------------------------------- */
+/* vision
+/* ----------------------------------------------- */
+.vision{
+  /* position: relative; */
+  padding-bottom: 180px;
+}
+.vision span{
+  display: block;
+  font-size: 20px;
+  letter-spacing: 0.2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.vision p{
+  display: block;
+  margin: 0 auto 10px;
+  line-height: 2;
+  max-width: 1072px;
+}
+/* .vision_flame{
+  width: 1300px;
+  position: absolute;
+  top: -29%;
+  left: 50%;
+  transform: translate(-50%,0);
+} */
+/* ----------------------------------------------- */
+/* skill
+/* ----------------------------------------------- */
+.skill_title{
+  font-size: 22px;
+  margin-bottom: 100px;
+}
+.skill_title span{
+  font-size: 27px;
+  color: #0DFFD3;
+}
+.skill_block{
+  display: flex;
+  justify-content: space-between;
+}
+.skill_block:nth-child(n + 1){
+  margin-top: 50px;
+}
+.skill_content{
+  display: flex;
+  align-items: center;
+  background-color: rgba(13, 255, 211, 2%);
+  width: 510px;
+  height: 248px;
+  border-left: #0DFFD3 solid 2px;
+}
+.skill_content_inner{
+  padding: 0 10px 0 40px;
+}
+.skill_content_inner img{
+  width: 200px;
   margin-bottom: 20px;
 }
-.skill_item span{
-  color: #0000ff;
-  padding-left: 20px;
+.skill_content_inner strong{
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
-
-.trait_list{
-  width: 344px;
+.skill_content_inner span{
+  color: #0DFFD3;
+  text-shadow: 0 0 5px;
+  margin-right: 10px;
+}
+.skill_content_inner p{
+  font-size: 13px;
+}
+.skill_content_inner p:nth-child(n + 1){
+  display: block;
+  margin-top: 15px;
+}
+/* ----------------------------------------------- */
+/* message
+/* ----------------------------------------------- */
+.message{
+  padding-top: 200px;
+  max-width: 1440px;
+}
+.message_inner{
+  background-image: url(../image/message_bgi.jpg);
+  background-blend-mode: soft-light;
+  background-color: rgba(16, 15, 16, .80);
+  background-size: cover;
+  background-position-y: 50%;
+  height: 620px;
+}
+.message_text{
+  max-width: 1180px;
+  padding: 55px 0;
+  font-size: 14px;
+  line-height: 2;
   margin: 0 auto;
 }
-.trait_item{
-  font-size: 16px;
-  margin-bottom: 40px;
-  letter-spacing: 2px;
+.message_text p:nth-child(n + 1){
+  display: inline-block;
+  margin-top: 15px;
 }
-
-@media screen and (max-width: 959px){
-  .about_article{
-    width: 580px;
+/* ----------------------------------------------- */
+/* sp
+/* ----------------------------------------------- */
+@media screen and (max-width:450px){
+  .profile{
+    display: block;
+    padding-bottom: 80px;
   }
-  .about_title{
-    font-size: 30px;
+  .profile_left{
+    width: 345px;
+    margin-bottom: 50px;
   }
-  .about_subtitle{
-    font-size: 27px;
+  .top_unit span{
+    width: 345px;
   }
-  .about_article_text h3{
-    font-size: 18px;
+  .photo{
+    width: 345px;
+    margin: 20px 0;
   }
-  .about_article_text p{
-    text-align: center;
+  .border{
+    width: 345px;
   }
-  .profile_text{
-    width: 400px;
+  .profile_name{
+    margin-top: 20px;
   }
-  .profile_text p{
-    font-size: 15px;
+  .profile_name span{
+    font-size: 24px;
   }
-  .vision h3{
-  font-size: 17px;
+  .profile_name p{
+    font-size: 17px;
   }
   
-  .skill_wrap{
-    width: 580px;
+  .profile_right{
+    width: 345px;
   }
-  .skill_list{
-    padding: 30px 45px;
+  .profile_right strong{
+    font-size: 17px;
+    margin-bottom: 30px;
   }
-  .skill_item{
+  .hobby_block{
+    margin-bottom: 50px;
+  }
+  .hobby_title{
+    flex-wrap: wrap;
+    height: auto;
     font-size: 15px;
-    width: 213px;
+    margin-bottom: 22px;
   }
-  .skill_item_title{
-    font-size: 17px;
+  .hobby_title span{
+    width: 150px;
   }
-}
+  .hobby_title p{
+    margin-top: 10px;
+    letter-spacing: 0.05rem;
+  }
+  .hobby_title span:after{
+    width: 345px;
+    margin-top: 40px;
+  }
 
-@media screen and (max-width:559px){
-  .about_article{
-    width: 250px;
-  }
-  .about_title{
-    font-size: 25px;
-  }
-  .about_subtitle{
-    font-size: 22px;
-  }
-  .about_article_text h3{
-    font-size: 17px;
-  }
-  .profile_text{
-    width: 250px;
-  }
-  .profile_text p{
-    font-size: 14px;
-  }
-  .vision h3{
-  font-size: 16px;
-  }
-  .skill_wrap{
-    width: 250px;
-  }
-  .skill_list{
+  .other_text{
     display: block;
-    padding: 30px 24px;
   }
-  .skill_item{
-    font-size: 14px;
+  .other_text:nth-last-child(2){
+    margin-top: 25px;
+  }
+  .other_text span{
+    width: 100px;
+  }
+  .other_text p{
+    margin-top: 10px;
+  }
+  .profile_message{
+    line-height: 2;
+  }
+
+  .vision{
+    padding-bottom: 80px;
+    max-width: 345px;
+    margin: 0 auto;
+  }
+  .vision span{
+    font-size: 17px;
+    margin-bottom: 35px;
+  }
+  .vision p{
+    margin: 0 auto 15px;
+  }
+
+  .skill_title{
+    font-size: 22px;
+    margin-bottom: 60px;
+  }
+  .skill_block{
+    display: block;
+  }
+  .skill_block:nth-child(n + 1){
+    margin-top: 50px;
+  }
+  .skill_content{
+    display: flex;
+    align-items: center;
+    background-color: rgba(13, 255, 211, 2%);
+    width: 345px;
+    height: auto;
+    border-left: none;
+  }
+  .skill_content:nth-child(n + 2){
+    margin-top: 50px;
+  }
+  .skill_content_inner{
+    padding: 15px;
+  }
+  .skill_content_inner span{
+    display: none;
+  }
+  .skill_content_inner img{
     width: 200px;
+    margin-bottom: 15px;
   }
-  .skill_item_title{
-    font-size: 16px;
+  .skill_content_inner strong{
+    font-size: 15px;
+    margin-bottom: 0;
   }
-  .trait_list{
-    width: 250px;
+  .skill_content_inner strong:after{
+    display: block;
+    content: "";
+    border-bottom: 1px solid #0DFFD3;
+    width: 315px;
+    box-shadow: #0DFFD3 0 0 5px;
+    margin: 10px 0 20px;
   }
-  .trait_item{
-    font-size: 14px;
+  .skill_content_inner p{
+    font-size: 13px;
+  }
+
+  .message{
+    padding-top: 100px;
+    max-width: 375px;
+  }
+  .message_inner{
+    background-position-y: top;
+    background-position-x: 90%;
+    height: auto;
+  }
+  .message_text{
+    max-width: 345px;
+    padding: 60px 0;
+    letter-spacing: 0.06rem;
+  }
+  .message_text p:nth-child(n + 1){
+    margin-top: 25px;
   }
 }
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */

@@ -1,162 +1,199 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./image/icon.ico">
-  <link rel="apple-touch-icon" href="./image/favicon.png">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/common.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Delius+Unicase|Noto+Sans+JP:400,500|Source+Code+Pro&display=swap"
-    rel="stylesheet">
-  <title>KOKI ISHII Portfolio</title>
-</head>
-
-<body>
-  <div class="shutter"></div>
-  <div class="key_visual_img">
-    <header>
-      <div id="header" class="header_wrap">
-        <div class="header_title">
-          <a href="index.html">
-            <h1>KOKI ISHII</h1>
-          </a>
-        </div>
-        <div class="nav_wrap">
-          <nav class="nav">
-            <ul class="nav_list">
-              <li class="nav_item">
-                <a href="./index.html">Home</a>
-              </li>
-              <li class="nav_item" class="work_wrapper">
-                <a href="./work.html">Works</a>
-              </li>
-              <li class="nav_item">
-                <a href="./about.html">About</a>
-              </li>
-              <li class="nav_item">
-                <a href="./pastime.html">Pastime</a>
-              </li>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koki Ishii Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/drawer.min.css">
+    <link rel="apple-touch-icon" href="./image/apple-touch-icon.png">
+  </head>
+  
+  <body class="drawer drawer--right">
+    <div class="wrap">
+      <header role="banner">
+        <div class="header_inner">
+          <div class="header_title">
+            <a href="#main_visual">
+              <img src="./image/rogo.png" alt="#">
+              <h1>KOKI ISHII</h1>
+            </a>
+          </div>
+          <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+          </button>
+          <nav class="drawer-nav" role="navigation">
+            <ul class="drawer-menu">
+              <li><a class="drawer-brand" href="#">Menu</a></li>
+              <li><a class="drawer-menu-item" href="index.html">Home</a></li>
+              <li><a class="drawer-menu-item" href="about.html">Profile</a></li>
+              <li><a class="drawer-menu-item" href="work.html">Work</a></li>
+              <li><a class="drawer-menu-item" href="https://www.instagram.com/__x__e__n__o__/?hl=ja">Instagram</a></li>
             </ul>
           </nav>
         </div>
-        <div class="btn_trigger">
-          <span class="bar bar_top"></span>
-          <span class="bar bar_mid"></span>
-          <span class="bar bar_bottom"></span>
-        </div>
-      </div>
-    </header>
-    <section class="key_visual">
-      <div class="key_visual_wrap">
-        <div class="key_visual_title">
-          <p>
-            Make people smile through design.
-          </p>
-        </div>
-        <div class="key_visual_subtitle">
-          <p>
-            WEBDESIGN
-          </p>
-        </div>
-      </div>
-    </section>
-  </div>
-  <div class="bgi_img">
-    <section class="section">
-      <h2>Recent Works</h2>
-      <div class="main_content">
-        <a href="lifebyte.html" class="effect-fade">
-          <div><img src="./image/lifebyte.png" alt="LifeByteコーポレートサイト"></div>
-        </a>
-        <a href="Gelateria.html" class="effect-fade-after">
-          <div><img src="./image/gelateria.png" alt="GelateriaMAKOウェブサイト"></div>
-        </a>
-      </div>
-    </section>
-    <section class="section">
-      <h2>Other Works</h2>
-      <div class="main_content">
-        <a href="invoice.html" class="effect-fade-after">
-          <div><img src="./image/invoice.png" alt="INVOICE株式会社コーポレートサイト"></div>
-        </a>
-        <a href="./Bose.html" class="effect-fade">
-          <div><img src="./image/bose.png" alt="bose プロモーションサイトfv"></div>
-        </a>
-      </div>
-      <div class="after_section">
-        <div class="main_content">
-          <a href="./hadalabo.html" class="effect-fade">
-            <div><img src="./image/hada-labo.png" alt="肌ラボランディングページfv"></div>
-          </a>
-          <a href="./t-site.html" class="effect-fade-after">
-            <div><img src="./image/t-site.png" alt="t-siteホームページfv"></div>
-          </a>
-        </div>
-      </div>
-      <div class="after_section">
-        <div class="main_content">
-          <a href="./zucca.html" class="effect-fade-after">
-            <div><img src="./image/zucca.png" alt="zucca ecサイトfv"></div>
-          </a>
-          <a href="./tech_junior.html" class="effect-fade">
-            <div><img src="./image/tech_junior.png" alt="TECH::JUNIORロゴデザイン"></div>
-          </a>
-        </div>
-      </div>
-      <a href="./work.html" class="btn">Read more</a>
-    </section>
-    <section class="section">
-      <h2>About</h2>
-      <div class="about_wrap">
-        <div class="profile_img">
-          <img src="./image/me.png" alt="石井功希の顔写真">
-        </div>
-        <div class="about_text">
-          <h3>自分で作り出したデザインで<br>人を笑顔にし、人の役に立ちたい</h3>
-          <p>
-            前職では決められた手順で作業していく「ルーティンワーク」をしていた私は自分で１から考え、計画し作り出す仕事に憧れ興味をもっていました。人の為に何かをするのが好き。自分の作ったもので誰かの役に立ち笑顔になって欲しい。というスタンスを持つ私は「Webデザイナー」がクライアントの要望を元に課題解決に導き、ユーザーにとって使いやすく分かりやすいデザインする仕事だと知り興味を持ちました。
-          </p>
-        </div>
-      </div>
-      <a href="./about.html" class="btn">Read more</a>
-    </section>
-    <section class="section">
-      <div class="pastime">
-        <h2>Pastime</h2>
-        <p>
-          趣味でPhotoshopとIllustratorを使って遊んでいます。
-        </p>
-      </div>
-      <div class="main_content">
-        <a href="./ny_view.html" class="effect-fade-after">
-          <div class="thumbnail"><img src="./image/ny.png" alt="街並みの写真"></div>
-        </a>
-        <a href="./jelly.html" class="effect-fade">
-          <div><img src="./image/jelly.png" alt="クラゲのアート"></div>
-        </a>
-      </div>
-      <a href="./pastime.html" class="btn">Read more</a>
-    </section>
-    <section class="under_nav">
-      <ul class="under_nav_list">
-        <li class="under_nav_item"><a href="#header">Home</a></li>
-        <li class="under_nav_item"><a href="./work.html">Works</a></li>
-        <li class="under_nav_item"><a href="./about.html">About</a></li>
-        <li class="under_nav_item"><a href="./pastime.html">Pastime</a></li>
-      </ul>
-    </section>
-  </div>
-  <footer>
-    <small>&copy;2020 KOKI ISHII ALL RIGHTS RESERVED</small>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="./js/portfolio.js"></script>
-  <div id="stalker"></div>
-  <!-- <div id="cursor"></div> -->
-</body>
-
+      </header>
+      <main role="main">
+        <section id="main_visual">
+          <div class="main_visual_inner">
+            <div class="main_visual_img">
+              <img src="./image/main_visual.jpg" alt="">
+            </div>
+            <div class="main_copy">
+              <div class="main">
+                <div class="text">
+                  KOKI ISHII
+                </div>
+                <div class="shadow">
+                  <div class="viewport">
+                    <div class="text">
+                      KOKI ISHII
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main">
+                <div class="text">
+                  PORTFOLIO
+                </div>
+                <div class="shadow">
+                  <div class="viewport">
+                    <div class="text">
+                      PORTFOLIO
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="main_about">
+            <div class="about_title">
+              <h2>私が幸せになるためにデザインをする。</h2>
+              <h2>私のデザインで誰かを幸せにする。</h2>
+            </div>
+            <div class="about_reed">
+              <p>
+                私は自分のためにデザインを作ります。それは「私自身が充実した幸せな日々を送るため」。
+              </p>
+              <p>
+                時間を忘れるくらい夢中になれる趣味はいくつかありますが、それを差し置いてもっとも幸せを感じることがあります。それは「好きなこと・興味のあるものを追いかけている時」です。
+              </p>
+              <p>
+                自分の知らない新しい体験、ものに触れたとき。ターゲットに向けて計画やプロセスを構築しているとき。いわば、「深く追求し、考えること」が大好きで、「トレンドがすぐに移り変わる」「今の技術も一年後通用しないかもしれない」時間の流れが早いwebデザインは「常にスキルを磨き、新しいことに挑戦し続ける必要がある」私は、そんな環境で仕事ができることにやりがい、幸せを感じます。
+              </p>
+              <p>
+                私が日々デザインを追求する結果、より上質なものが作れる。そして私のデザインを通して誰かを幸せにする。自分の「好き」が、誰かの「幸せ」に繋がればいいと思っています。
+              </p>
+            </div>
+            <div class="sign">
+              <img src="./image/sign.png" alt="">
+            </div>
+          </div>
+          <div class="sub_about">
+            <div class="sub_title">
+              <h2>
+                私が大切にしていること
+              </h2>
+            </div>
+            <div class="about_sub_reed">
+              <div class="reed_block">
+                <h3>Be free.</h3>
+                <span>縛られず自由に。</span>
+                <p>固定概念に囚われず、主体性を持って常に最良を模索する。</p>
+                <p>全てのルールを守っていては良い仕事はできない。</p>
+              </div>
+              <div class="reed_block">
+                <h3>Challenge.</h3>
+                <span>野心とも呼べるチャレンジ精神</span>
+                <p>あれこれ考えすぎず、一歩踏み出すこと。</p>
+                <p>行動なくして失敗はおろか、成功もしない。</p>
+              </div>
+              <div class="reed_block">
+                <h3>Ambition.</h3>
+                <span>貪欲なまでの向上心</span>
+                <p>努力を惜しまず、常に新しいことを学び自己成長を続けること。</p>
+                <p>自分だけではなく、周りを巻き込んで「正のスパイラル」を起こす。</p>
+              </div>
+            </div>
+          </div>
+            <a class="btn" href="about.html">
+              <span class="hover_name">Profile</span>
+            </a>
+        </section>
+        <section class="work_content">
+          <div class="section_title">
+            <h2>Work</h2>
+          </div>
+          <div class="work_block block_top">
+            <a href="lifebyte.html">
+              <div class="work_text">
+                <p>Web site</p>
+                <h4>LifeByte</h4>
+                <span class="work_btn">View more</span>
+              </div>
+            </a>
+          </div>
+          <div class="work_block block_mid">
+            <a href="gelateria.html">
+              <div class="work_text">
+                <p>Web site</p>
+                <h4>Gelateria MAKO</h4>
+                <span class="work_btn">View more</span>
+              </div>
+            </a>
+          </div>
+          <div class="work_block block_bottom">
+            <a href="invoice.html">
+              <div class="work_text">
+                <p>Web site</p>
+                <h4>INVOICE</h4>
+                <span class="work_btn">View more</span>
+              </div>
+            </a>
+          </div>
+            <a class="btn" href="work.html">
+              <span class="hover_name">Other work</span>
+            </a>
+        </section>
+        <footer class="footer">
+          <div class=under_nav>
+            <ul class="under_nav_list">
+              <li class="under_nav_items"><a href="#main_visual"><span class="hover_items">Home</span></a></li>
+              <li class="under_nav_items"><a href="about.html"><span class="hover_items">Profile</span></a></li>
+              <li class="under_nav_items"><a href="work.html"><span class="hover_items">Work</span></a></li>
+            </ul>
+            <div class="sns">
+              <a href="https://www.instagram.com/__x__e__n__o__/?hl=ja">
+                <span class="hover_sns">
+                  <p>Instagram</p>
+                  <img src="./image/instagram_icon.svg" alt="">
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="other">
+            <span class="top_btn">
+              <a href="#main_visual">Page top</a>
+            </span>
+            <small>&copy; KOKI ISHII ALL RIGHTS RESERVED</small>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/drawer.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.drawer').drawer();
+      });
+      </script>
+  </body>
 </html>
