@@ -198,7 +198,8 @@
 /* ----------------------------------------------- */
 .message{
   padding-top: 200px;
-  max-width: 1440px;
+  max-width: 2440px;
+  margin: 0 auto;
 }
 .message_inner{
   background-image: url(../image/message_bgi.jpg);
